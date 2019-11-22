@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7D6687992387AE0700187E24 /* Pizza.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D6687982387AE0700187E24 /* Pizza.swift */; };
 		7D71789023874966002E903C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D71788F23874966002E903C /* AppDelegate.swift */; };
 		7D71789223874966002E903C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D71789123874966002E903C /* SceneDelegate.swift */; };
 		7D71789423874966002E903C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D71789323874966002E903C /* ViewController.swift */; };
@@ -16,6 +17,7 @@
 		7D7178A72387496F002E903C /* tableViewPracTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D7178A62387496F002E903C /* tableViewPracTests.swift */; };
 		7D7178B22387496F002E903C /* tableViewPracUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D7178B12387496F002E903C /* tableViewPracUITests.swift */; };
 		7D7178C02387510B002E903C /* PizzaTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D7178BF2387510B002E903C /* PizzaTableViewCell.swift */; };
+		7D7178C223876B35002E903C /* pizza.json in Resources */ = {isa = PBXBuildFile; fileRef = 7D7178C123876B35002E903C /* pizza.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +38,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		7D6687982387AE0700187E24 /* Pizza.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pizza.swift; sourceTree = "<group>"; };
 		7D71788C23874966002E903C /* tableViewPrac.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = tableViewPrac.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7D71788F23874966002E903C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7D71789123874966002E903C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -51,6 +54,7 @@
 		7D7178B12387496F002E903C /* tableViewPracUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tableViewPracUITests.swift; sourceTree = "<group>"; };
 		7D7178B32387496F002E903C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7D7178BF2387510B002E903C /* PizzaTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PizzaTableViewCell.swift; sourceTree = "<group>"; };
+		7D7178C123876B35002E903C /* pizza.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = pizza.json; path = ../../../../Downloads/pizza.json; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +109,8 @@
 				7D71788F23874966002E903C /* AppDelegate.swift */,
 				7D71789123874966002E903C /* SceneDelegate.swift */,
 				7D71789323874966002E903C /* ViewController.swift */,
+				7D6687982387AE0700187E24 /* Pizza.swift */,
+				7D7178C123876B35002E903C /* pizza.json */,
 				7D71789523874966002E903C /* Main.storyboard */,
 				7D7178982387496F002E903C /* Assets.xcassets */,
 				7D71789A2387496F002E903C /* LaunchScreen.storyboard */,
@@ -235,6 +241,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7D7178C223876B35002E903C /* pizza.json in Resources */,
 				7D71789C2387496F002E903C /* LaunchScreen.storyboard in Resources */,
 				7D7178992387496F002E903C /* Assets.xcassets in Resources */,
 				7D71789723874966002E903C /* Main.storyboard in Resources */,
@@ -265,6 +272,7 @@
 				7D7178C02387510B002E903C /* PizzaTableViewCell.swift in Sources */,
 				7D71789423874966002E903C /* ViewController.swift in Sources */,
 				7D71789023874966002E903C /* AppDelegate.swift in Sources */,
+				7D6687992387AE0700187E24 /* Pizza.swift in Sources */,
 				7D71789223874966002E903C /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
